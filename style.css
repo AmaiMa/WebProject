@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+.wrapper-1 {
+    background-image: linear-gradient(rgba(141, 140, 140, 0.911), rgba(112, 112, 112, 0.5)), url("Images/buildings11.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+nav {
+    display: flex;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+    padding-top: 10px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav-links ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 4vw;
+    font-size: 1vw;
+    font-family: Montserrat;
+}
+.nav-links ul li a:hover {
+    color: rgb(128, 128, 128);
+}
+.banner-link {
+    text-align: center;
+    padding-top: 7vw;
+}
+.banner-link a {
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    padding: 2vw;
+    font-family: Montserrat;
+}
+.banner-link a:hover {
+    color: rgb(128, 128, 128);
+}
+
+.text-1 h1 {
+    font-size: 4vw;
+    font-weight: lighter;
+    padding-top: 15vw;
+    text-align: center;
+    font-family: Bodoni Moda;
+}
+.text-1 h2 {
+    font-size: 1vw;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Bodoni Moda;
+    
+}
+.text-1 p {
+    font-size: 3vw;
+    text-align: center;
+    opacity: 0.65;
+    padding-top: 5vw;
+}
+.img-2 img {
+    opacity: 0.85;
+    width: 100%;
+    height: 40vw;
+    padding-top: 10vw;
+}
+.img-3 img {
+    opacity: 0.85;
+    width: 100%;
+    height: 40vw;
+    padding-top: 10vw;
+}
+.img-2 p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 2vw;
+    font-family: Shippori Mincho;
+}
+.img-2 a {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(194, 192, 192);
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Montserrat;
+}
+.img-3 p {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 2vw;
+    font-family: Shippori Mincho;
+}
+.img-3 a {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(194, 192, 192);
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Montserrat;
+}
+.img-2 a:hover {
+    background-color: rgb(194, 192, 192);
+}
+.img-3 a:hover {
+    background-color: rgb(194, 192, 192);
+}
+.nav-links-2 {
+    margin-top: 2vw;
+    text-align: center;
+}
+.nav-links-2 a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 1vw;
+}
+.text-2 {
+    font-family: Crimson Text;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+.text-2 h1 {
+    font-family: Montserrat;
+    font-size: 1vw;
+    padding-top: 2px;
+}
+.text-2 h1 a {
+    text-decoration: none;
+    color: black;
+}
+.text-2 h1 a:hover {
+    color: rgb(128, 128, 128);
+}
+.listing-1 {
+    background-image: url("Images/apartment11.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 40vw;
+    opacity: 0.85;
+    margin-top: 50px;
+    transition-duration: 2s;
+}
+.listing-1:hover {
+    background-image: url("Images/apartment2.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 40vw;
+    padding: 2vw;
+    opacity: 0.85;
+    transition: 2s;
+}
+.listing-1:after {
+    transition: ease-out 10s;
+}
+.text-3 {
+    font-family: Crimson Text;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+.text-3 h1 {
+    font-family: Montserrat;
+    font-size: 1vw;
+    padding-top: 2px;
+}
+.text-3 h1 a {
+    text-decoration: none;
+    color: black;
+}
+.text-3 h1 a:hover {
+    color: rgb(128, 128, 128);
+}
+.listing-2 {
+    background-image: url("Images/apartment12.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 40vw;
+    opacity: 0.85;
+    margin-top: 50px;
+    transition-duration: 2s;
+}
+.listing-2:hover {
+    background-image: url("Images/apartment1.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 40vw;
+    padding: 2vw;
+    opacity: 0.85;
+    transition: 2s;
+}
+.listing-2:after {
+    transition: ease-out 5s;
+}
+.text-4 {
+    text-align: center;
+}
+.text-4 h1 {
+    font-family: Montserrat;
+    font-size: 3vw;
+    padding-top: 10vw;
+    text-align: center;
+}
+.broker img {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    opacity: 0.8;
+}
+.text-4 p {
+    font-family: Crimson Text;
+    font-size: 1.5vw;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.cont-img {
+    background-image: linear-gradient(rgba(153, 153, 153, 0.911), rgba(112, 112, 112, 0.5)), url("Images/buildings11.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    animation: fade-in 3s;
+}
+.text-5 {
+    text-align: center;
+    padding-top: 40vw;
+}
+.text-5 h1 {
+    font-family: Montserrat;
+    font-size: 3vw;
+}
+.text-5 p {
+    font-family: Montserrat;
+    font-size: 1.5vw;
+}
+@keyframes fade-in {
+    from {opacity: 0.6}
+    to {opacity: 1}
+    
+}
+@media only screen and (max-width:500px) {
+    .text-1 h1 {
+        padding-top: 40vw;
+    }
+    .text-1 p {
+        padding-top: 10vw;
+    }
+    .img-2 img {
+        opacity: 0.7;
+        width: 100%;
+        height: 200px;
+        padding-top: 5vw;
+    }
+    .img-3 img {
+        opacity: 0.7;
+        width: 100%;
+        height: 200px;
+        padding-top: 15vw;
+    }
+    .img-2 a {
+        font-size: 8px;
+        color: black;
+        text-decoration: none;
+        border-style: solid;
+        border-color: rgb(194, 192, 192);
+        margin-left: 20px;
+        padding: 8px;
+        font-family: Montserrat;
+    }
+    .img-3 a {
+        font-size: 8px;
+        color: black;
+        text-decoration: none;
+        border-style: solid;
+        border-color: rgb(194, 192, 192);
+        margin-left: 20px;
+        padding: 8px;
+        font-family: Montserrat;
+    }
+    .cont-img {
+        height: 100px;
+    }
+    .text-6 {
+        text-align: center;
+        padding-top: 100px;
+    }
+    .text-4 h1 {
+        padding-top: 30vw;
+    }
+    .text-5 h1 {
+        padding-top: 20px;
+    }
+}
